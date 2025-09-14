@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_component_course_list_sections",
+  "info": {
+    "displayName": "Course List Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "courseCategory": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::course-category.course-category"
+    }
+  }
+}

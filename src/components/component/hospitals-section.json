@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_component_hospitals_sections",
+  "info": {
+    "displayName": "Hospitals Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_component_media_and_events_sections",
+  "info": {
+    "displayName": "Media and Events Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

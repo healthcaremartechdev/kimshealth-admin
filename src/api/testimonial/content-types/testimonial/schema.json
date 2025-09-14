@@ -1,0 +1,154 @@
+{
+  "kind": "collectionType",
+  "collectionName": "testimonials",
+  "info": {
+    "singularName": "testimonial",
+    "pluralName": "testimonials",
+    "displayName": "Testimonial",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "specialities": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::speciality.speciality"
+    },
+    "hospitals": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::hospital.hospital"
+    },
+    "doctor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::doctor-detail.doctor-detail"
+    },
+    "locations": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::location.location"
+    },
+    "details": {
+      "type": "richtext",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "featuredImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "thumbnailImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "videoId": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "videoSource": {
+      "type": "enumeration",
+      "enum": [
+        "Facebook",
+        "Youtube"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "shortDetails": {
+      "type": "text"
+    },
+    "diseases": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::disease.disease"
+    },
+    "procedures": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::procedure.procedure"
+    },
+    "testimonialType": {
+      "type": "enumeration",
+      "enum": [
+        "Video",
+        "Text"
+      ]
+    },
+    "date": {
+      "type": "date"
+    },
+    "manageAppearance": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.minimal-appearance"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "testimonialSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.testimonial-section"
+    },
+    "doctorTalkSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.doctor-talk"
+    },
+    "blogSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.blog-section"
+    },
+    "metaSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.meta-section"
+    }
+  }
+}

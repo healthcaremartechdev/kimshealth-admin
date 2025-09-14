@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_component_content_cards",
+  "info": {
+    "displayName": "Content Card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "details": {
+      "type": "richtext"
+    }
+  }
+}

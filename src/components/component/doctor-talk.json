@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_component_doctor_talks",
+  "info": {
+    "displayName": "Doctor Talk Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

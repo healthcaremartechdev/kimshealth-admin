@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_component_course_sections",
+  "info": {
+    "displayName": "Course Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

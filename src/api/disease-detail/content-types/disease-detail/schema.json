@@ -1,0 +1,98 @@
+{
+  "kind": "collectionType",
+  "collectionName": "disease_details",
+  "info": {
+    "singularName": "disease-detail",
+    "pluralName": "disease-details",
+    "displayName": "Disease Details",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "overviewSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.hospital-section",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "expertSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.meet-our-expert-section",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "testimonialSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.testimonial-section",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "doctorTalk": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.doctor-talk",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "locations": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::location.location"
+    },
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "disease": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::disease.disease"
+    },
+    "metaSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.meta-section",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "manageAppearance": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.view-section",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

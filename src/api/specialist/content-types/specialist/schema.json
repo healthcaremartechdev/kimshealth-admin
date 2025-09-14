@@ -1,0 +1,68 @@
+{
+  "kind": "collectionType",
+  "collectionName": "specialists",
+  "info": {
+    "singularName": "specialist",
+    "pluralName": "specialists",
+    "displayName": "Specialist",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "speciality": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::speciality.speciality"
+    },
+    "procedure": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::procedure.procedure"
+    },
+    "disease": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::disease.disease"
+    },
+    "hospital": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::hospital.hospital"
+    },
+    "location": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::location.location"
+    },
+    "metaSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.meta-section",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

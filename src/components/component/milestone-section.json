@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_component_milestone_sections",
+  "info": {
+    "displayName": "Milestone Section"
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.milestone-item"
+    }
+  }
+}

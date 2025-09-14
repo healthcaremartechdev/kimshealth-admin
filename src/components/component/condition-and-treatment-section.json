@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_component_condition_and_treatment_sections",
+  "info": {
+    "displayName": "Disease & Procedure Section",
+    "icon": "dashboard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

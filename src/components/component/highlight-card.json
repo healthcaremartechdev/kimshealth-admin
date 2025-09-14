@@ -1,0 +1,63 @@
+{
+  "collectionName": "components_component_highlight_cards",
+  "info": {
+    "displayName": "Highlight Card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "card1Title": {
+      "type": "string"
+    },
+    "card1Hyperlink": {
+      "type": "string"
+    },
+    "card2Title": {
+      "type": "string"
+    },
+    "card2Hyperlink": {
+      "type": "string"
+    },
+    "card3Title": {
+      "type": "string"
+    },
+    "card3Hyperlink": {
+      "type": "string"
+    },
+    "card4Title": {
+      "type": "string"
+    },
+    "card4Contact": {
+      "type": "string"
+    },
+    "card1Icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "card2Icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "card3Icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "card4Icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

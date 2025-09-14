@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_component_overview_without_images",
+  "info": {
+    "displayName": "Overview without Image"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "details": {
+      "type": "richtext"
+    }
+  }
+}

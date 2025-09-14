@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_component_testimonial_sections",
+  "info": {
+    "displayName": "Testimonial Section",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

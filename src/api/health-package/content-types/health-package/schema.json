@@ -1,0 +1,126 @@
+{
+  "kind": "collectionType",
+  "collectionName": "health_packages",
+  "info": {
+    "singularName": "health-package",
+    "pluralName": "health-packages",
+    "displayName": "Health Package",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "featuredImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "price": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "manageAppearance": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.minimal-appearance",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "metaSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.meta-section",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "details": {
+      "type": "richtext",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "locations": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::location.location"
+    },
+    "noOfConsultation": {
+      "type": "integer",
+      "default": 0
+    },
+    "noOfTest": {
+      "type": "integer",
+      "default": 0
+    },
+    "hospitals": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::hospital.hospital"
+    },
+    "testIncluded": {
+      "type": "richtext"
+    },
+    "patientsPreparationNotes": {
+      "type": "richtext"
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.page-banner-section"
+    },
+    "healthPackage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.health-package-section"
+    },
+    "shortDetails": {
+      "type": "richtext"
+    },
+    "overviewTitle": {
+      "type": "string"
+    },
+    "specialities": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::speciality.speciality"
+    }
+  }
+}

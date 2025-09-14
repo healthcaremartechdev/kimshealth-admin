@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_component_meet_our_expert_sections",
+  "info": {
+    "displayName": "Meet Our Expert Section",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

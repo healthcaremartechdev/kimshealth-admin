@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_component_milestone_items",
+  "info": {
+    "displayName": "Milestone Item"
+  },
+  "options": {},
+  "attributes": {
+    "events": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.title-only"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

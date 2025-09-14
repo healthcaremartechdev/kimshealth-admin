@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_component_wall_of_fame_sections",
+  "info": {
+    "displayName": "Wall of Fame Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

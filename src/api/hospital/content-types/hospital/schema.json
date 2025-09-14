@@ -1,0 +1,183 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hospitals",
+  "info": {
+    "singularName": "hospital",
+    "pluralName": "hospitals",
+    "displayName": "Hospital",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "contactNo": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "appointmentNo": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "emergencyNo": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "featuredImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "email": {
+      "type": "email",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "address": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "rating": {
+      "type": "integer",
+      "default": 0,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "mapURL": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "expertSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.meet-our-expert-section",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "testimonialSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.testimonial-section",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "location": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::location.location"
+    },
+    "doctorTalk": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.doctor-talk"
+    },
+    "blog": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.blog-section"
+    },
+    "overviewSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.hospital-section"
+    },
+    "metaSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.meta-section"
+    },
+    "pageBanner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.page-banner"
+    },
+    "specialitySection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.speciality-section"
+    },
+    "hospitalsSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.hospitals-section"
+    },
+    "USPSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.usp-s-section"
+    },
+    "manageAppearance": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.view-section"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Hospital",
+        "Medical Center"
+      ]
+    },
+    "elfScocialWidget": {
+      "type": "string"
+    }
+  }
+}

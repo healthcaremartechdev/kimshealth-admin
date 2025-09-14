@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_component_overview_with_rich_editors",
+  "info": {
+    "displayName": "Overview with Rich Editor"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "details": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

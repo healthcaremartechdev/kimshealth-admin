@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_component_health_package_sections",
+  "info": {
+    "displayName": "Health Package Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

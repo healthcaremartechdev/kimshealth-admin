@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_component_speaker_items",
+  "info": {
+    "displayName": "Speaker Item"
+  },
+  "options": {},
+  "attributes": {
+    "by": {
+      "type": "string"
+    },
+    "topic": {
+      "type": "string"
+    },
+    "hospitalName": {
+      "type": "string"
+    }
+  }
+}

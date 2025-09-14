@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_component_usp_sections",
+  "info": {
+    "displayName": "USP Item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "number": {
+      "type": "string"
+    },
+    "suffix": {
+      "type": "string"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

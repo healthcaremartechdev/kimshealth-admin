@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_component_usp_s_sections",
+  "info": {
+    "displayName": "USP'S Section"
+  },
+  "options": {},
+  "attributes": {
+    "uspItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.usp-section"
+    }
+  }
+}

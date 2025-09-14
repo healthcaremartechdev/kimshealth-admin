@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_component_page_banners",
+  "info": {
+    "displayName": "Page Banner Item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bannerImageDesktop": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "hyperlink": {
+      "type": "string"
+    },
+    "bannerImageMobile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_component_contact_fields",
+  "info": {
+    "displayName": "Contact Field",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "phone": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "kind": "collectionType",
+  "collectionName": "static_page_contents",
+  "info": {
+    "singularName": "static-page-content",
+    "pluralName": "static-page-contents",
+    "displayName": "Static Page Content",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "pageCategory": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::static-page.static-page"
+    },
+    "metaSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.meta-section",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "pageContent": {
+      "type": "dynamiczone",
+      "components": [
+        "component.testimonial-section",
+        "component.speciality-section",
+        "component.meet-our-expert-section",
+        "component.media-coverage",
+        "component.hospitals-section",
+        "component.hospital-section",
+        "component.faq-section",
+        "component.expert-section",
+        "component.doctor-talk",
+        "component.condition-and-treatment-section",
+        "component.blog-section",
+        "component.content-card",
+        "component.page-banner-section",
+        "component.usp-s-section",
+        "component.highlight-button-section",
+        "component.wall-of-fame-section",
+        "component.social-media-updates",
+        "component.page-title",
+        "component.title-only",
+        "component.highlight-card",
+        "component.overview-without-image",
+        "component.overview-with-image",
+        "component.logo-section",
+        "component.content-card-repeater",
+        "component.overview-with-rich-editor",
+        "component.contact-info",
+        "component.journal",
+        "component.course-list-section",
+        "component.file-download",
+        "component.socomer",
+        "component.contact-field",
+        "component.content-only",
+        "component.milestone-section"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "locations": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::location.location"
+    }
+  }
+}

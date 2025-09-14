@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_component_expert_section_s",
+  "info": {
+    "displayName": "Sub Speciality Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

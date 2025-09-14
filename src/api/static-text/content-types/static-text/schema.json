@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "static_texts",
+  "info": {
+    "singularName": "static-text",
+    "pluralName": "static-texts",
+    "displayName": "Static Text",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "text": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

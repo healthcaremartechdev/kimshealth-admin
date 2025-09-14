@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_component_highlight_button_items",
+  "info": {
+    "displayName": "Highlight Button Item"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "iconImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "hyperlink": {
+      "type": "string"
+    }
+  }
+}

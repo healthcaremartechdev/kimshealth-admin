@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_component_speciality_sections",
+  "info": {
+    "displayName": "Speciality Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

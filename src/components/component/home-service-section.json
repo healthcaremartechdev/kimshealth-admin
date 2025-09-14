@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_component_home_service_sections",
+  "info": {
+    "displayName": "Home Service Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

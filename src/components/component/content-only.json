@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_component_content_onlies",
+  "info": {
+    "displayName": "Content Only",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "text"
+    }
+  }
+}

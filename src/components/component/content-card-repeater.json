@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_component_content_card_repeaters",
+  "info": {
+    "displayName": "Content Card Repeater"
+  },
+  "options": {},
+  "attributes": {
+    "contentCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.content-card"
+    }
+  }
+}

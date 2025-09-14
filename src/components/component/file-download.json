@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_component_file_downloads",
+  "info": {
+    "displayName": "File Download"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "file": {
+      "allowedTypes": [
+        "images",
+        "videos",
+        "audios",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

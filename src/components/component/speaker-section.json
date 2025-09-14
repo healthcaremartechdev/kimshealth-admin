@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_component_speaker_sections",
+  "info": {
+    "displayName": "Speaker Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "speaker": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.speaker-item"
+    }
+  }
+}

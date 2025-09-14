@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_component_title_onlies",
+  "info": {
+    "displayName": "Title Only"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

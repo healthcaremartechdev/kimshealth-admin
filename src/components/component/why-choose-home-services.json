@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_component_why_choose_home_services",
+  "info": {
+    "displayName": "Why Choose Home Services"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

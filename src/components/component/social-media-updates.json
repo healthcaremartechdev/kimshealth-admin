@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_component_social_media_updates",
+  "info": {
+    "displayName": "Social Media Updates"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

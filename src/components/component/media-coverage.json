@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_component_media_coverages",
+  "info": {
+    "displayName": "Media Coverage"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_component_hospital_sections",
+  "info": {
+    "displayName": "Overview with Video",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "details": {
+      "type": "richtext"
+    },
+    "videoId": {
+      "type": "string"
+    },
+    "caption": {
+      "type": "string"
+    },
+    "shortDetails": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "thumbnail": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

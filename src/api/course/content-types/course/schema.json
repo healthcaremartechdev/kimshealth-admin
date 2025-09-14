@@ -1,0 +1,89 @@
+{
+  "kind": "collectionType",
+  "collectionName": "courses",
+  "info": {
+    "singularName": "course",
+    "pluralName": "courses",
+    "displayName": "Course",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "courseCategory": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::course-category.course-category"
+    },
+    "manageAppearance": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.minimal-appearance"
+    },
+    "metaSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.meta-section"
+    },
+    "locations": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::location.location"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "eligibility": {
+      "type": "string"
+    },
+    "commencement": {
+      "type": "string"
+    },
+    "noOfSeat": {
+      "type": "string"
+    },
+    "affiliation": {
+      "type": "string"
+    },
+    "entryLevel": {
+      "type": "string"
+    },
+    "fees": {
+      "type": "string"
+    },
+    "coursePeriodStipend": {
+      "type": "string"
+    },
+    "internshipStipend": {
+      "type": "string"
+    },
+    "shortDetails": {
+      "type": "richtext"
+    },
+    "details": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "courseSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.course-section"
+    }
+  }
+}

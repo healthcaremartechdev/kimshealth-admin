@@ -1,0 +1,106 @@
+{
+  "kind": "collectionType",
+  "collectionName": "specialty_details",
+  "info": {
+    "singularName": "specialty-detail",
+    "pluralName": "specialty-details",
+    "displayName": "Speciality Details",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "chooseSpecialityCategory": {
+      "type": "enumeration",
+      "enum": [
+        "Other Specialties",
+        "Center of Excellence"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "overviewSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.hospital-section",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "locations": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::location.location"
+    },
+    "metaSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.meta-section"
+    },
+    "manageAppearance": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.view-section"
+    },
+    "blogSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.blog-section"
+    },
+    "expertSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.meet-our-expert-section"
+    },
+    "testimonialSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.testimonial-section"
+    },
+    "doctorTalk": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.doctor-talk"
+    },
+    "subSpecialitySection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.expert-section"
+    },
+    "diseasesAndProceduresSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.condition-and-treatment-section"
+    },
+    "speciality": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::speciality.speciality"
+    },
+    "pageBanner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.page-banner"
+    }
+  }
+}

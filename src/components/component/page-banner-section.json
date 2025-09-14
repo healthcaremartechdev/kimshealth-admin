@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_component_page_banner_sections",
+  "info": {
+    "displayName": "Page Banner Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bannerItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.page-banner"
+    }
+  }
+}

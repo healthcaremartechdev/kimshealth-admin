@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_component_meta_sections",
+  "info": {
+    "displayName": "Meta Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "text"
+    },
+    "extraHeaderCode": {
+      "type": "text"
+    },
+    "metaKeyword": {
+      "type": "string"
+    }
+  }
+}

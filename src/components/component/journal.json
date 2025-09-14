@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_component_journals",
+  "info": {
+    "displayName": "Journal"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "journal": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.journal-item"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_component_minimal_appearances",
+  "info": {
+    "displayName": "Minimal Appearance",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "showInFeaturedList": {
+      "type": "boolean",
+      "default": false
+    },
+    "orderInMasterList": {
+      "type": "decimal",
+      "default": 1999
+    },
+    "orderInFeaturedList": {
+      "type": "decimal",
+      "default": 1999
+    }
+  }
+}

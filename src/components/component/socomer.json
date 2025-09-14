@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_component_socomers",
+  "info": {
+    "displayName": "Socomer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "socomer": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.socomer-item"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

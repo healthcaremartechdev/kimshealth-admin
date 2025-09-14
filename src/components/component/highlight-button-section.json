@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_component_highlight_button_sections",
+  "info": {
+    "displayName": "Highlight Button Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "highlightButtonItem": {
+      "displayName": "Highlight Button Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "component.highlight-button-item"
+    }
+  }
+}

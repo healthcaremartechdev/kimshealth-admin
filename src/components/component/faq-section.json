@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_component_faq_sections",
+  "info": {
+    "displayName": "FAQ Section",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "faqData": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.fa-qdata"
+    }
+  }
+}

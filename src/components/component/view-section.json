@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_component_view_sections",
+  "info": {
+    "displayName": "Manage Appearance",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "showInFeaturedList": {
+      "type": "boolean",
+      "default": false
+    },
+    "orderInFeaturedList": {
+      "type": "decimal",
+      "default": 1999
+    },
+    "orderInMasterList": {
+      "type": "decimal",
+      "default": 1999
+    },
+    "showingHeader": {
+      "type": "boolean",
+      "default": false
+    },
+    "showingFooter": {
+      "type": "boolean",
+      "default": false
+    },
+    "viewingMode": {
+      "type": "enumeration",
+      "enum": [
+        "Details Page",
+        "Popup"
+      ]
+    }
+  }
+}
